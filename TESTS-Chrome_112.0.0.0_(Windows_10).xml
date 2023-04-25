@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 112.0.0.0 (Windows 10)" package="" timestamp="2023-04-25T01:11:50" id="0" hostname="LAPTOP-TFAT86IU" tests="12" errors="0" failures="0" time="0.068">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.042" classname="Chrome_112_0_0_0_(Windows_10).AppComponent"/>
+  <testcase name="AppComponent should increase likes when like() is requested" time="0.004" classname="Chrome_112_0_0_0_(Windows_10).AppComponent"/>
+  <testcase name="AppComponent should have as title 'testesAutomaticos'" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).AppComponent"/>
+  <testcase name="LikeWidgetComponent should auto generate ID during ngOnInit when (@Input id) is not assigned" time="0.006" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent #like&#xA;    should trigger (@Output liked) when called" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent should create component" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent should NOT auto-generate ID during ngOnInit when (@Input id) is assigned" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should throw when called with empty" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should not generate duplicate ids when called with multiple times" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="UniqueServiceId #getNumberOfGeneratedUniqueIds should return the number of generatedIds when called" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should generate id when called with prefix" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="UniqueServiceId should be created" time="0" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

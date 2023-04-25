@@ -10,10 +10,12 @@ export class UniqueServiceId {
 
   private numberOfGeneratedIds = 0;
 
+  private validId = /^[A-Za-z]+[\w\-\:\.]*$/;
+
   constructor() { }
 
-  public generatedUniqueIdWithPrefix(prefix: string): string {
-    if(!prefix){
+  public generatedUniqueIdWithPrefix(prefix: string|null|undefined): string {
+    if(!prefix || !this.validId.test(prefix)){
       throw Error('Prefix can not be empty');
     }
     const uniqueId = this.generatedUniqueId();
