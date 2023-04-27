@@ -1,9 +1,12 @@
+import { HttpClient } from '@angular/common/http';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppComponent } from './app.component';
+import { AppModule } from './app.module';
 import { LikeWidgetComponent } from './shared/components/like-widget/like-widget.component';
 import { LikeWidgetModule } from './shared/components/like-widget/like-widget.module';
+import { PhotoFrameModule } from './shared/components/photo-frame/photo-frame.module';
 
 describe('AppComponent', () => {
   let app: AppComponent;
@@ -13,7 +16,8 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent        
       ],
-      imports: [LikeWidgetModule]
+      imports: [LikeWidgetModule, PhotoFrameModule, AppModule],
+      providers: [HttpClient]
     }).compileComponents();
     fixture = TestBed.createComponent(AppComponent);
     app = fixture.componentInstance;

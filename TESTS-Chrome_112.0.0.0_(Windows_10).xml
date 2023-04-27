@@ -1,22 +1,49 @@
 <?xml version="1.0"?>
-<testsuite name="Chrome 112.0.0.0 (Windows 10)" package="" timestamp="2023-04-25T02:13:08" id="0" hostname="LAPTOP-TFAT86IU" tests="12" errors="0" failures="0" time="0.078">
+<testsuite name="Chrome 112.0.0.0 (Windows 10)" package="" timestamp="2023-04-27T02:46:00" id="0" hostname="LAPTOP-TFAT86IU" tests="37" errors="0" failures="0" time="2.182">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"/>
   </properties>
-  <testcase name="AppComponent should have as title 'testes avançados'" time="0.047" classname="Chrome_112_0_0_0_(Windows_10).AppComponent"/>
-  <testcase name="AppComponent should create the app" time="0.005" classname="Chrome_112_0_0_0_(Windows_10).AppComponent"/>
+  <testcase name="AppComponent should create the app" time="0.052" classname="Chrome_112_0_0_0_(Windows_10).AppComponent"/>
   <testcase name="AppComponent should increase likes when like() is requested" time="0.004" classname="Chrome_112_0_0_0_(Windows_10).AppComponent"/>
-  <testcase name="LikeWidgetComponent should auto generate ID during ngOnInit when (@Input id) is not assigned" time="0.006" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
-  <testcase name="LikeWidgetComponent #like&#xA;    should trigger (@Output liked) when called" time="0.004" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
-  <testcase name="LikeWidgetComponent should create component" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
-  <testcase name="LikeWidgetComponent should NOT auto-generate ID during ngOnInit when (@Input id) is assigned" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
-  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should throw when called with empty" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
-  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should generate id when called with prefix" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="AppComponent should have as title 'testes avançados'" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).AppComponent"/>
+  <testcase name="PhotoListComponentMock Provider Use Class (DOM)Should display board when data arrives" time="0.017" classname="Chrome_112_0_0_0_(Windows_10).PhotoListComponentMock Provider Use Class"/>
+  <testcase name="PhotoListComponentMock Provider Use Class should create" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoListComponentMock Provider Use Class"/>
+  <testcase name="ActionDirective (DOM) (@Output appAction) should emit event with payload when clicked or ENTER key pressed" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).ActionDirective"/>
+  <testcase name="ActionDirective (DOM) (@Output appAction) should emit event with payload when ENTER key is pressed" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).ActionDirective"/>
+  <testcase name="ActionDirective (DOM) (@Output appAction) should emit event with payload when clicked" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).ActionDirective"/>
+  <testcase name="PhotoBoardComponent should create" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).PhotoBoardComponent"/>
+  <testcase name="PhotoBoardComponent Should display rows and columns when (@Input photos) has value" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).PhotoBoardComponent"/>
+  <testcase name="PhotoBoardService #getPhotos should return photos with &#xA;  description in uppercase" time="2.016" classname="Chrome_112_0_0_0_(Windows_10).PhotoBoardService"/>
+  <testcase name="PhotoBoardService should be created" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).PhotoBoardService"/>
+  <testcase name="PhotoBoardComponent Should display rows and columns when (@Input photos) has value" time="0.01" classname="Chrome_112_0_0_0_(Windows_10).PhotoBoardComponent"/>
+  <testcase name="PhotoBoardComponent should create" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoBoardComponent"/>
+  <testcase name="PhotoFrameComponent (DOM) Should display image with src and description when bound to properties" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent (DOM) Should have aria-label with default (@Input likes) value" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent #like&#xA;    should trigger (@Output liked) once when called&#xA;    multiple times within debounce time" time="0.004" classname="Chrome_112_0_0_0_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent #like&#xA;    should trigger (@Output liked) two times when called&#xA;    outside debounce time" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent (DOM) Should display number of likes when (@Input likes) is incremented" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent (DOM) Should update aria-label when (@Input likes) is incremented" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoFrameComponent should create" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoFrameComponent"/>
+  <testcase name="PhotoListComponentMock Provider should create" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoListComponentMock Provider"/>
+  <testcase name="PhotoListComponentMock Provider (DOM)Should display board when data arrives" time="0.006" classname="Chrome_112_0_0_0_(Windows_10).PhotoListComponentMock Provider"/>
   <testcase name="UniqueServiceId #getNumberOfGeneratedUniqueIds should return the number of generatedIds when called" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should throw when called with empty" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
   <testcase name="UniqueServiceId should be created" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
-  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should not generate duplicate ids when called with multiple times" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should generate id when called with prefix" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="UniqueServiceId #generatedUniqueIdWithPrefix should not generate duplicate ids when called with multiple times" time="0.001" classname="Chrome_112_0_0_0_(Windows_10).UniqueServiceId"/>
+  <testcase name="PhotoListComponent (DOM)Should display loader when waiting for data" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).PhotoListComponent"/>
+  <testcase name="PhotoListComponent (DOM)Should display board when data arrives" time="0.006" classname="Chrome_112_0_0_0_(Windows_10).PhotoListComponent"/>
+  <testcase name="PhotoListComponent should create" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).PhotoListComponent"/>
+  <testcase name="LikeWidgetComponent #like&#xA;    should trigger (@Output liked) when called" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent should NOT auto-generate ID during ngOnInit when (@Input id) is assigned" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent should auto generate ID during ngOnInit when (@Input id) is not assigned" time="0.003" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent (DOM) Should display number of likes when ENTER key is pressed" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent (DOM) Should display number of likes when clicked" time="0.004" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
+  <testcase name="LikeWidgetComponent should create component" time="0.002" classname="Chrome_112_0_0_0_(Windows_10).LikeWidgetComponent"/>
   <system-out>
-    <![CDATA[
+    <![CDATA[Chrome 112.0.0.0 (Windows 10) ERROR
+  Disconnected Client disconnected from CONNECTED state (transport close)
+
 ]]>
   </system-out>
   <system-err/>
